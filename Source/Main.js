@@ -11,6 +11,8 @@ Main.init = function(){
 	Main.Renderer.clear();
 	
 	document.body.appendChild(Main.Renderer.domElement);
+	
+	console.log("this is a test");
 };
 
 Main.requestAnimation = function() {
